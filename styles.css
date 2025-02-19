@@ -22,6 +22,10 @@ a{
 
 ul{
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
 }
 
 .logo{
@@ -31,5 +35,90 @@ ul{
 }
 .header-nav{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
+.left-header{
+    display: flex;
+    margin-right: auto;
+}
+.right-header{
+    display: flex;
+    margin-left: auto;
+}
+.header{
+    padding: 10px 90px;
+}
+
+.content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.parrafo{
+    color: #E5E7EB;
+
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  background: #3882f6;
+  color: #E5E7EB;
+  padding:5px 20px;
+  font-weight: 900;
+}
+
+
+.infotitle{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 30px;
+}
+
+.card{
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.imginfo{
+    max-width: 200px;
+    border-radius: 5px;
+}
+.some-information{
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.textinfo{
+   color:  #1F2937;
+}
