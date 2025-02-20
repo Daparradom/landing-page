@@ -12,6 +12,7 @@ body{
 
 .header{
     background-color: #1F2937;
+    flex: 1;
 }
 
 a{
@@ -57,6 +58,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .texto{
@@ -118,7 +120,80 @@ button{
 .some-information{
     padding: 30px;
     margin-bottom: 100px;
+    flex: 1;
 }
 .textinfo{
    color:  #1F2937;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 200px;
+    justify-content: center;
+    align-items: center ;
+    background-color: #e5e7eb;
+    padding-bottom: 100px;
+    flex: 1;
+
+}
+
+.quotext{
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+.author{
+    margin-left: auto;
+}
+
+
+.action {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:90px 30px;
+    flex: 1;
+}
+
+.cuadrado{
+    display: flex;
+    gap: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 100px;
+    justify-content: space-between;
+
+}
+
+.titleaction{
+    color:#E5E7EB ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.parrafoaction{
+    color:#E5E7EB ;
+    font-size: 15px;
+}
+
+.baccion{
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 0px 50px; 
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 30px;
 }
